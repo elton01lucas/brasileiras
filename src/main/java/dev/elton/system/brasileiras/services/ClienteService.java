@@ -1,4 +1,4 @@
-package dev.brasileiras.system.system.services;
+package dev.system.system.brasileiras.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import dev.brasileiras.system.system.entities.Cliente;
-import dev.brasileiras.system.system.repositories.ClienteRepository;
+import dev.system.system.brasileiras.entities.Cliente;
+import dev.system.system.brasileiras.repositories.ClienteRepository;
 
 @Service
 public class ClienteService {

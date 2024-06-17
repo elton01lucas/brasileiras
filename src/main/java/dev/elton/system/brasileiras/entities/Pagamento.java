@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.entities;
+package dev.elton.system.brasileiras.entities;
 
 import java.io.Serializable;
 import java.time.Instant;

@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system;
+package dev.elton.system.brasileiras;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.config;
+package dev.elton.system.brasileiras.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -8,16 +8,16 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import dev.elton.brasileiras.system.entities.Cliente;
-import dev.elton.brasileiras.system.entities.Livro;
-import dev.elton.brasileiras.system.entities.Pagamento;
-import dev.elton.brasileiras.system.entities.Pedido;
-import dev.elton.brasileiras.system.entities.PedidoItem;
-import dev.elton.brasileiras.system.enums.PedidoStatus;
-import dev.elton.brasileiras.system.repositories.ClienteRepository;
-import dev.elton.brasileiras.system.repositories.LivroRepository;
-import dev.elton.brasileiras.system.repositories.PedidoItemRepository;
-import dev.elton.brasileiras.system.repositories.PedidoRepository;
+import dev.elton.system.brasileiras.entities.Cliente;
+import dev.elton.system.brasileiras.entities.Livro;
+import dev.elton.system.brasileiras.entities.Pagamento;
+import dev.elton.system.brasileiras.entities.Pedido;
+import dev.elton.system.brasileiras.entities.PedidoItem;
+import dev.elton.system.brasileiras.enums.PedidoStatus;
+import dev.elton.system.brasileiras.repositories.ClienteRepository;
+import dev.elton.system.brasileiras.repositories.LivroRepository;
+import dev.elton.system.brasileiras.repositories.PedidoItemRepository;
+import dev.elton.system.brasileiras.repositories.PedidoRepository;
 
 @Configuration
 @Profile("test")

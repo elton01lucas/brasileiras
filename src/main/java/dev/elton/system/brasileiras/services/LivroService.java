@@ -1,4 +1,4 @@
-package dev.brasileiras.system.system.services;
+package dev.system.brasileiras.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import dev.brasileiras.system.system.entities.Livro;
-import dev.brasileiras.system.system.repositories.LivroRepository;
+import dev.system.brasileiras.entities.Livro;
+import dev.system.brasileiras.repositories.LivroRepository;
 
 @Service
 public class LivroService {

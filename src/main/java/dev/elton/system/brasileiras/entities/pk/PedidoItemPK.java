@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.entities.pk;
+package dev.elton.system.brasileiras.entities.pk;
 
 import java.io.Serializable;
 
@@ -6,8 +6,8 @@ import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import dev.elton.brasileiras.system.entities.Livro;
-import dev.elton.brasileiras.system.entities.Pedido;
+import dev.elton.system.brasileiras.entities.Livro;
+import dev.elton.system.brasileiras.entities.Pedido;
 
 @Embeddable
 public class PedidoItemPK implements Serializable {

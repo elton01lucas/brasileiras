@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.entities;
+package dev.elton.system.brasileiras.entities;
 
 import java.io.Serializable;
 
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import dev.elton.brasileiras.system.entities.pk.PedidoItemPK;
+import dev.elton.system.brasileiras.entities.pk.PedidoItemPK;
 
 @Entity
 @Table(name = "pedido_item")

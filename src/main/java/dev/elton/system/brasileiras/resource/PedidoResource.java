@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.resource;
+package dev.elton.system.brasileiras.resource;
 
 import java.net.URI;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import dev.elton.brasileiras.system.entities.Pedido;
-import dev.elton.brasileiras.system.services.PedidoService;
+import dev.elton.system.brasileiras.entities.Pedido;
+import dev.elton.system.brasileiras.services.PedidoService;
 
 @RestController
 @RequestMapping(value = "/pedidos")

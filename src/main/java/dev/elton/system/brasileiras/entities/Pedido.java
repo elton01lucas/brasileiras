@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.entities;
+package dev.elton.system.brasileiras.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import dev.elton.brasileiras.system.enums.PedidoStatus;
+import dev.elton.system.brasileiras.enums.PedidoStatus;
 
 @Entity
 @Table(name = "pedido")

@@ -1,4 +1,4 @@
-package dev.elton.brasileiras.system.system.enums;
+package dev.elton.system.system.brasileiras.enums;
 
 public enum PedidoStatus {
 	
